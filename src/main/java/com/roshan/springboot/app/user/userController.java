@@ -8,6 +8,11 @@ public class userController {
 
     @GetMapping("/")
     public String sayHello(){
-        return "Hello world";
+        return "Hello roshan";
+    }
+
+    @GetMapping("/workout")
+    public String dailyWorkOut(){
+        return "This is working bro !";
     }
 }
